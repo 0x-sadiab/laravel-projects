@@ -12,7 +12,7 @@
                 <li><a>New Product</a></li>
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl">Product</a>
+        <a class="btn btn-ghost text-xl" href="/products">Product</a>
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
