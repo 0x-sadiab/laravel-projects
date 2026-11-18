@@ -26,7 +26,7 @@ Route::middleware('auth')->group(function () {
 });
 // Auth routes
 
-Route::middleware('group')->group(function () {
+Route::middleware('guest')->group(function () {
     Route::get('/register', [RegistrationController::class, 'create']);
     Route::post('/register', [RegistrationController::class, 'store']);
 
